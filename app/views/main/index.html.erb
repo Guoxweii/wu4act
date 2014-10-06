@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-1">
+      <%= link_to "login", new_user_session_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<script>
+  baiduMapInstance.init({
+    wrapperElementId: "map",
+             address: "上海市长宁区协和路1158号8楼",
+                name: "上海未来宽带技术股份有限公司",
+                city: "上海市",
+               token: "oj8mxAhz4jWkRSpPXDW0GTuB",
+               build: function() { baiduMapInstance.buildBaseMapElement() }
+  }).loadMapScript()
+</script>

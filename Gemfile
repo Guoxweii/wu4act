@@ -19,6 +19,9 @@ gem "bootstrap-sass", "~> 3.2.0"
 gem 'act_as_deleted'
 gem 'baidu_map_ruby', "~> 0.0.2"
 gem 'ip2address'
+gem 'pry'
+gem "faraday", "~> 0.9.0"
+gem "faraday_middleware", "~> 0.9.1"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
